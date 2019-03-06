@@ -1,0 +1,49 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="site.master.cs" Inherits="site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head runat="server" id="myHead">
+    <!-- Basic Page Needs
+  ================================================== -->
+    <meta charset="utf-8"/>
+    <meta name="keywords" content="Bonsai, Christiansburg, Blacksburg, Radford, Salem, Roanoke, Virginia, New River Valley" />
+
+    <meta name="keywords" content="HTML5 Template"/>
+    <meta name="description" content="Apex Bonsai">
+    <meta name="author" content="pixel-mafia.com">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+
+    <!-- Apple Touch -->
+    <link rel="apple-touch-icon" href="img/apple57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple114.png">
+
+    <!-- Mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Responsive -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+
+    <!-- CSS -->
+    <link href="css/main.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/grid.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/pm-icons.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/fontawesome.css" rel="stylesheet" type="text/css" media="all">
+
+    <!-- JS -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body id="Body" runat="server">
+    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+    </asp:ContentPlaceHolder>
+</body>
+</html>
